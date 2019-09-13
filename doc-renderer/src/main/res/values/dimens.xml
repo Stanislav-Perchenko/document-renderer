@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="base_margin">12dp</dimen>
+    <dimen name="base_margin_half">6dp</dimen>
+
+    <dimen name="nav_bar_fallback_height">48dp</dimen>
+    <dimen name="stat_bar_fallback_height">25dp</dimen>
+    <dimen name="action_bar_fallback_height">52dp</dimen>
+
+    <dimen name="home_module_cell_icon_size">24dp</dimen>
+    <dimen name="drawer_nav_item_icon_size">24dp</dimen>
+
+    <dimen name="drawer_nav_item_height">48dp</dimen>
+
+    <dimen name="list_card_item_space">8dp</dimen>
+
+    <dimen name="load_more_view_size">48dp</dimen>
+    <dimen name="load_more_container_height">72dp</dimen>
+    <dimen name="list_user_icon_size">68dp</dimen>
+
+    <dimen name="introduction_logo_height">56dp</dimen>
+    <dimen name="introduction_logo_margin">36dp</dimen>
+    <dimen name="introduction_my_avatar_size">120dp</dimen>
+
+    <dimen name="stickers_list_item_size">80dp</dimen>
+    <dimen name="stickers_list_item_image_size">60dp</dimen>
+
+    <dimen name="list_divider_height">1.5dp</dimen>
+    <dimen name="app_buttons_corners">56dp</dimen>
+
+    <dimen name="document_header_padding_v">0dp</dimen>
+    <dimen name="document_header_padding_h">0dp</dimen>
+</resources>

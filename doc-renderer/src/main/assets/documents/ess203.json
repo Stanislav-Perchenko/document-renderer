@@ -1,0 +1,2279 @@
+{
+	"meta":{
+		"title":"Welcome letter",
+		"quiz": {
+			"questions": [
+				{"id":0,"number":1,"statement":"How many legs do Arachnids have?","answers":["8","6","4","10"],"type":"single_answer","correct_answer_indexes":[0]},
+				{"number":2,"statement":"Name the three time periods of the dinosaurs.","answers":["Cretaceous","Triassic","Paleogene","Jurassic","Permian"],"type":"multiple_answer","correct_answer_indexes":[0,1,3],"id":1},
+				{"number":3,"statement":"What is the name of our galaxy?","type":"short_answer","correct_answer":"The Milky Way Galaxy","id":2}
+			]
+		},
+		"resource_id":"OS18",
+		"category":"Self Categorized",
+		"theme":"Welcome",
+		"certificate":"Exceptional Service Foundations",
+		"author":"Director",
+		"department":"Human Resources",
+		"property":"Marriot China",
+		"last_edited":"2019-05-25T13:15:30Z",
+		"completion":0.76,
+		"user_rating":7.6
+	},
+	"sections": [
+		{
+			"is_folded": true,
+			"header": null,
+			"rows": []
+		},
+		{
+			"rows": [
+				{
+					"cells": [
+						{
+							"width": -1,
+							"text": "  STANDARDS  ",
+							"style": {
+								"background-color": "#FF000000",
+								"text-color": "#ffffffff",
+								"font-size": 13,
+								"font-weight": "bold",
+								"text-align": "center",
+								"vertical-align": "top"
+							}
+						},{
+							"aspect_ratio": 0.01,
+							"width": 0,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"aspect_ratio": 0.44,
+							"width": 32,
+							"image": "http://tf.stml2a.com/dal.ashx?p0=957ffefb-57c9-4c6f-b199-43417d667f4f&p1=-2&p2=logo&p3=7031312E6A7067"
+						}
+					]
+				},
+				{
+					"cells": [
+						{
+							"width": 0,
+							"text": "ESS203",
+							"style": {
+								"text-color": "#ff757575",
+								"font-size": 9,
+								"text-align": "left"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 32,
+					"cells": [
+						{
+							"width": 0,
+							"text": "EXCEPTIONAL SERVICE STANDARDS",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 16,
+								"font-weight": "bold",
+								"text-align": "left"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 2,
+					"cells": [
+						{
+							"width": 0,
+							"height": 2,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"cells": [
+						{
+							"width": 0,
+							"text": "ADMINISTRATION",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 13,
+								"text-align": "left"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 2,
+					"cells": [
+						{
+							"width": 0,
+							"height": 1,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"cells": [
+						{
+							"width": -1,
+							"text": "JOB GROUP",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 13
+							}
+						},{
+							"aspect_ratio": 0.1,
+							"width": 5,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "ADMINISTRATION, LM",
+							"style": {
+								"text-color": "#ff757575",
+								"font-size": 13,
+								"text-align": "left"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 2,
+					"cells": [
+						{
+							"width": 0,
+							"height": 1,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"cells": [
+						{
+							"width": -1,
+							"text": "RECEPIENT",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 13
+							}
+						},{
+							"aspect_ratio": 0.1,
+							"width": 5,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "BEN ZAHN",
+							"style": {
+								"text-color": "#ff757575",
+								"font-size": 13,
+								"text-align": "left"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 2,
+					"cells": [
+						{
+							"width": 0,
+							"height": 1,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"cells": [
+						{
+							"width": -1,
+							"text": "LAST EDITED",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 13
+							}
+						},{
+							"aspect_ratio": 0.1,
+							"width": 5,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "25 NOVEMBER 2015 22:46:11",
+							"style": {
+								"text-color": "#ff757575",
+								"font-size": 13
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 2,
+					"cells": [
+						{
+							"width": 0,
+							"height": 1,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"cells": [
+						{
+							"width": -1,
+							"text": "REVIEW DATE",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 13
+							}
+						},{
+							"aspect_ratio": 0.1,
+							"width": 5,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "20 NOVEMBER 2016",
+							"style": {
+								"text-color": "#ff757575",
+								"font-size": 13,
+								"text-align": "left"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 2,
+					"cells": [
+						{
+							"width": 0,
+							"height": 1,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 12,
+					"cells": [
+						{
+							"width": -1,
+							"text": "OTHER STANDARDS (ALL TEAM)",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 13
+							}
+						},{
+							"aspect_ratio": 0.1,
+							"width": 5,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "ADMINISTRATION, LM",
+							"style": {
+								"text-color": "#ff757575",
+								"font-size": 13,
+								"text-align": "left"
+							}
+						}
+					]
+				}
+			]
+		},
+		
+		
+		
+		
+		
+		{
+			"is_folded": false,
+			"is_foldable": false,
+			"header": {
+				"margin_top": 64,
+				"text": "1    OVERVIEW",
+				"style": {
+					"font-size": 13,
+					"text-color": "#FF000000",
+					"font-weight": "bold"
+				}
+			},
+			"rows": [
+				{
+					"margin_top": 8,
+					"cells": [
+						{
+							"width": 0,
+							"height": 2,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 8,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "QUALITY: GENERAL APPROACHES",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 9,
+								"font-weight": "bold"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"width": 10,
+							"text": "1.1",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Principles in our approach to standards and quality are as follows:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "centrally controlled core standards matched by local, department-level, documentation of detail",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "business-wide templating of operations documentation through the Insider database",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "the Insider information model distinguishing, Company Standards, SOPs, and Checklists",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "strong systems for department head orientation to maintain continuity in the quality system",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "clear linkage to standards via My Learning in each team member's Job Guide",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "documentation quality improvements through SOPs where problems are found to be recurring",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "explicit ownership of standards through nominated Job Group Leaders and support personnel",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "effective handover of standards management through the \"Rate for Release\" quality assurance function.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 24,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "QUALITY : MANAGEMENT AND ADMINISTRATION LEADERSHIP",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 9,
+								"font-weight": "bold"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"width": 10,
+							"text": "1.2",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "The quality management system empowers managers to take active responsibility for quality in their own department. The core accountability for senior leaders, therefore, is as follows:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "champion \"the quality culture\" and inspire commitment to excellence:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "be familiar with the standards of excellence set forth in all Exceptional Service Standards active in the property",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "contribute to the upkeep and enhancement of standards, as requested",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "visibly check operations for adherence to standards and training on service quality touch points",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "identify areas of weak performance and promote action for improvement",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "drive and oversee compliance\r\n*reward and highlight excellence in quality.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 24,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "QUALITY : RISK CONTROL",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 9,
+								"font-weight": "bold"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"width": 10,
+							"text": "1.3",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Risk reduction and elimination is a core accountability and a key outcome from our systems approach to quality. Risks include those whose consequences are \"unacceptable\" and must be eliminated; and those which are \"residual\" and arise from the normal course of business. The elimination of \"unacceptable risks\" usually entails changes to operations and to physical resources. The management of \"residual risks\" usually involves procedural control, training and review.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 16,
+					"cells": [
+						{
+							"width": 10,
+							"text": "1.4",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Control self assessment [\"CSA\"] uses regular reviews to identify and define risks and schedule them for action (\"elimination\" or \"management\"). Management of residual risks will include:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "reduction of frequency, exposure and extent",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "phasing down or re-assignment or people, products or resources",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "physical controls, or training and procedural controls.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 16,
+					"cells": [
+						{
+							"width": 10,
+							"text": "1.5",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "CSA assumes that the best people to control business outcomes are the hands-on \"local team\"; and that the role of the wider company is to set the standards, provide the tools, and verify performance. CSA rewards open and honest communication as this reduces risk and encourages excellence. On the other hand, less than candid or dishonest reporting under CSA may be viewed as a breach of trust and discipline.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 16,
+					"cells": [
+						{
+							"width": 10,
+							"text": "1.6",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "In summary, Management should promote the following:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "a positive and open culture to assist with the discovery of risk",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "questioning and the search for excellence",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "high levels of transparency in all process and dealings.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				}
+			]
+		},
+		
+		
+		
+		
+		
+		{
+			"is_folded": false,
+			"is_foldable": true,
+			"header": {
+				"margin_top": 24,
+				"text": "2    OVERVIEW",
+				"style": {
+					"font-size": 13,
+					"text-color": "#FF000000",
+					"font-weight": "bold"
+				}
+			},
+			"rows": [
+				{
+					"margin_top": 8,
+					"cells": [
+						{
+							"width": 0,
+							"height": 2,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 8,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "QUALITY: GENERAL APPROACHES",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 9,
+								"font-weight": "bold"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"width": 10,
+							"text": "2.1",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Principles in our approach to standards and quality are as follows:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "centrally controlled core standards matched by local, department-level, documentation of detail",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "business-wide templating of operations documentation through the Insider database",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "the Insider information model distinguishing, Company Standards, SOPs, and Checklists",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "strong systems for department head orientation to maintain continuity in the quality system",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "clear linkage to standards via My Learning in each team member's Job Guide",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "documentation quality improvements through SOPs where problems are found to be recurring",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "explicit ownership of standards through nominated Job Group Leaders and support personnel",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "effective handover of standards management through the \"Rate for Release\" quality assurance function.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 24,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "QUALITY : MANAGEMENT AND ADMINISTRATION LEADERSHIP",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 9,
+								"font-weight": "bold"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"width": 10,
+							"text": "2.2",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "The quality management system empowers managers to take active responsibility for quality in their own department. The core accountability for senior leaders, therefore, is as follows:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "champion \"the quality culture\" and inspire commitment to excellence:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "be familiar with the standards of excellence set forth in all Exceptional Service Standards active in the property",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "contribute to the upkeep and enhancement of standards, as requested",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "visibly check operations for adherence to standards and training on service quality touch points",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "identify areas of weak performance and promote action for improvement",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "drive and oversee compliance\r\n*reward and highlight excellence in quality.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 24,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": 0,
+							"text": "QUALITY : RISK CONTROL",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 9,
+								"font-weight": "bold"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"width": 10,
+							"text": "2.3",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Risk reduction and elimination is a core accountability and a key outcome from our systems approach to quality. Risks include those whose consequences are \"unacceptable\" and must be eliminated; and those which are \"residual\" and arise from the normal course of business. The elimination of \"unacceptable risks\" usually entails changes to operations and to physical resources. The management of \"residual risks\" usually involves procedural control, training and review.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 16,
+					"cells": [
+						{
+							"width": 10,
+							"text": "2.4",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Control self assessment [\"CSA\"] uses regular reviews to identify and define risks and schedule them for action (\"elimination\" or \"management\"). Management of residual risks will include:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "reduction of frequency, exposure and extent",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "phasing down or re-assignment or people, products or resources",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "physical controls, or training and procedural controls.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 16,
+					"cells": [
+						{
+							"width": 10,
+							"text": "2.5",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "CSA assumes that the best people to control business outcomes are the hands-on \"local team\"; and that the role of the wider company is to set the standards, provide the tools, and verify performance. CSA rewards open and honest communication as this reduces risk and encourages excellence. On the other hand, less than candid or dishonest reporting under CSA may be viewed as a breach of trust and discipline.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 16,
+					"cells": [
+						{
+							"width": 10,
+							"text": "2.6",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "In summary, Management should promote the following:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "a positive and open culture to assist with the discovery of risk",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "questioning and the search for excellence",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "high levels of transparency in all process and dealings.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				}
+			]
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"is_folded": false,
+			"is_foldable": false,
+			"header": {
+				"margin_top": 24,
+				"text": "3    THE \"QMS\" IN SUMMARY ...",
+				"style": {
+					"font-size": 13,
+					"text-color": "#FF000000",
+					"font-weight": "bold"
+				}
+			},
+			"rows": [
+				{
+					"margin_top": 8,
+					"cells": [
+						{
+							"width": 0,
+							"height": 2,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"width": 10,
+							"text": "3.1",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "The QMS consolidates all standards in a common format. It uses database technologies and the organizational structure to:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "coordinate distribution of information",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "attach owners to information",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "control access",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "manage updating and ongoing documentation of improvements.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 16,
+					"cells": [
+						{
+							"width": 10,
+							"text": "3.2",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "The QMS contains central standards and local property / department standards. This combination of \"central and local\" is a key concept. The main parts of the QMS are as follows:",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "company-wide policy & procedure setting the broad framework (\"Company Standards\")",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "SOPs on operational essentials (mainly by job group)",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Checklists capturing small \"nitty gritty\" detail in the departments",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Job Descriptions with competencies and job requirements",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Department-level documents localizing quality focus, especially customer expectations",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "My Learning: a themed list for each team member of the standards linked to their job",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 3,
+					"cells": [
+						{
+							"aspect_ratio": 0.05,
+							"width": 10,
+							"style": {
+								"background-color": "#FFFF0000",
+								"vertical-align": "middle"
+							}
+						},{
+							"width": -1,
+							"text": "\u2981\u0020\u0020",
+							"style": {
+								"text-color": "#ff000000",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Reviews for checking understanding.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 16,
+					"cells": [
+						{
+							"width": 10,
+							"text": "3.3",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "The Company Standards, SOPs, and Job Descriptions are controlled by senior personnel and subject matter experts. Department-generated materials are monitored via the reporting structure.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				}
+			]
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"is_folded": false,
+			"is_foldable": false,
+			"header": {
+				"margin_top": 24,
+				"text": "4    QUALITY IN RECRUITMENT AND SELECTION",
+				"style": {
+					"font-size": 13,
+					"text-color": "#FF000000",
+					"font-weight": "bold"
+				}
+			},
+			"rows": [
+				{
+					"margin_top": 8,
+					"cells": [
+						{
+							"width": 0,
+							"height": 2,
+							"style": {
+								"background-color": "#FF000000"
+							}
+						}
+					]
+				},
+				{
+					"margin_top": 6,
+					"cells": [
+						{
+							"width": 10,
+							"text": "4.1",
+							"style": {
+								"text-color": "#ff111111",
+								"font-size": 11
+							}
+						},{
+							"width": 0,
+							"text": "Accurate and targeted selection criteria for each role should be a major focus of HR teams. These criteria enable recruitment to be more selective, and they form the base for training plans. HR should work with line managers and subject matter experts to establish selection suitability criteria which will \"make a difference\" to the performance of the hotel and outcompete the competitive set.",
+							"style": {
+								"text-color": "#ff454545",
+								"font-size": 11
+							}
+						}
+					]
+				}
+			]
+		}
+		
+		
+		
+		
+		
+		
+	]
+}

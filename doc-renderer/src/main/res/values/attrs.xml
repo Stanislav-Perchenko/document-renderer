@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="aspect_width" format="integer" />
+    <attr name="aspect_height" format="integer" />
+    <attr name="ref_side" format="enum" >
+        <enum name="width" value="0" />
+        <enum name="height" value="1" />
+    </attr>
+
+    <!-- LoadMoreView -->
+    <declare-styleable name="LoadMoreView">
+        <attr name="progressResId" format="reference"/>
+        <attr name="reloadResId" format="reference"/>
+        <attr name="endmsgResId" format="reference"/>
+    </declare-styleable>
+
+    <!-- AppIconView -->
+    <declare-styleable name="AppIconView">
+        <attr name="iconPlaceholder" format="reference"/>
+        <attr name="icon_circle" format="boolean"/>
+    </declare-styleable>
+
+    <!--  RoundedCornersImageView  -->
+    <declare-styleable name="RoundedCornersImageView">
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <!--  StableAspectFrameLayout  -->
+    <declare-styleable name="StableAspectFrameLayout" >
+        <attr name="aspect_width"/>
+        <attr name="aspect_height"/>
+        <attr name="ref_side"/>
+    </declare-styleable>
+
+    <!--  TagsLayout  -->
+    <declare-styleable name="TagsLayout">
+        <attr name="tl_itemLayoutResId" format="reference"/>
+        <attr name="tl_textViewResId" format="reference"/>
+        <attr name="tl_itemBackground" format="reference"/>
+        <attr name="tl_useDataItemsColor" format="boolean"/>
+        <attr name="tl_fallbackItemColor" format="color"/>
+
+        <attr name="tl_min_item_distance" format="dimension"/>
+        <attr name="tl_max_item_distance_for_reordered" format="dimension"/>
+        <attr name="tl_useExtraSpace" format="boolean"/>
+        <attr name="tl_autoReorder" format="boolean"/>
+    </declare-styleable>
+
+
+    <!--  AnimatedOpenerView  -->
+    <declare-styleable name="AnimatedOpenerView">
+        <attr name="openerTitle" format="string"/>
+        <attr name="angleOpened" format="integer"/>
+        <attr name="angleClosed" format="integer"/>
+        <attr name="isOpened" format="boolean"/>
+        <attr name="anim_duration" format="integer"/>
+        <attr name="anim_fps" format="integer"/>
+    </declare-styleable>
+
+</resources>

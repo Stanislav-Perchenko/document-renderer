@@ -34,7 +34,7 @@ android {
 
         dev {
             versionName "1.0 (build 1)"
-            applicationId "com.webssa.guestbest"
+            applicationId "com.alperez.samples.documentrenderer"
             dimension 'myapp'
         }
     }
