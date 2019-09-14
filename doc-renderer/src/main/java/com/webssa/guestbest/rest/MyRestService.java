@@ -18,7 +18,7 @@ public interface MyRestService {
 
     MyRestService INSTANCE = new Retrofit.Builder()
             .baseUrl("https://my-json-server.typicode.com/")
-            .client(HttpClientProvider.getInstance().getMockHttpClient().newBuilder().addInterceptor(new LocalDocumentsProvidingInterceptor()).build())
+            .client(HttpClientProvider.getInstance().getApiHttpClient().newBuilder().addInterceptor(new LocalDocumentsProvidingInterceptor()).build())
             .addConverterFactory(MoshiConverterFactory.create(ParserProvider.getRestApiMoshi()))
             .build()
             .create(MyRestService.class);

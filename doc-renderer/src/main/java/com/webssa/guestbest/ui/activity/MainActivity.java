@@ -1,9 +1,12 @@
 package com.webssa.guestbest.ui.activity;
 
+import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.webssa.guestbest.R;
+import com.webssa.guestbest.config.ConfigManager;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -46,5 +49,11 @@ public class MainActivity extends DrawerBaseActivity<String> {
                 throw new NoSuchElementException("0");
             }
         };
+    }
+
+    @Override
+    protected void onPostCreate(@Nullable Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        ConfigManager.getInstance().requestRemoteUpdateConfig();
     }
 }

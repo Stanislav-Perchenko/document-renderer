@@ -22,8 +22,6 @@ import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 
-//TODO Leave only 1 HTTP client !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 public class HttpClientProvider {
     private static final String TAG = "HttpClientIntercept";
 
@@ -43,7 +41,6 @@ public class HttpClientProvider {
 
 
     private final OkHttpClient mApiHttpClient;
-    private final OkHttpClient mMockHttpClient;
     private final OkHttpClient mPicassoHttpClient;
 
     private HttpClientProvider() {
@@ -68,11 +65,7 @@ public class HttpClientProvider {
         if (!GlobalProperties.HTTP_UPSTREAM_USE_GZIP) {
             builder.addNetworkInterceptor(new NoGzipInterceptor());
         }
-
-        mMockHttpClient = builder.build();
-
         mApiHttpClient = builder.build();
-
 
         try {
             File cacheDir = FileUtils.getFinalCacheDirectory(MyApplication.getStaticAppContext(), GlobalProperties.PICASSO_CACHE_DIR_NAME);
@@ -88,9 +81,6 @@ public class HttpClientProvider {
         return mApiHttpClient;
     }
 
-    public OkHttpClient getMockHttpClient() {
-        return mMockHttpClient;
-    }
 
     public OkHttpClient getPicassoHttpClient() {
         return mPicassoHttpClient;

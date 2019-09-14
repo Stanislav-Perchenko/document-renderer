@@ -6,6 +6,7 @@ public final class GlobalProperties {
 
     private GlobalProperties() { }
 
+    public static final boolean D = BuildConfig.DEBUG || MyApplication.isDebuggable();
 
     /**
      * This is the Locale value using for formatting any String value within the application

@@ -2,12 +2,15 @@ package com.webssa.guestbest.config;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 
+import com.webssa.guestbest.GlobalProperties;
 import com.webssa.guestbest.MyApplication;
 import com.webssa.guestbest.config.model.ConfigModel;
+import com.webssa.guestbest.rest.MyRestService;
 import com.webssa.guestbest.rest.helper.ParserProvider;
 
 import java.util.ArrayList;
@@ -15,7 +18,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public final class ConfigManager {
+    public static final String LOG_TAG = ConfigManager.class.getSimpleName();
+    public static final boolean D = GlobalProperties.D;
 
     public static final String PREF_CONFIG = "config_json";
 
@@ -58,9 +67,36 @@ public final class ConfigManager {
         }
     }
 
+    /**
+     * Call this to start remote update config from the backend.
+     * The MyRestService@getConfig() will be called asynchronously.
+     * The loaded Config will be saved by this manager and all LiveData will be notified with the update.
+     */
+    public void requestRemoteUpdateConfig() {
+        if (D) Log.d(LOG_TAG, "---> Start Config remote update");
+        MyRestService.INSTANCE.getConfig().enqueue(new Callback<ConfigModel>() {
+            @Override
+            public void onResponse(Call<ConfigModel> call, Response<ConfigModel> response) {
+                if (response.code() >= 200 && response.code() < 300) {
+                    if (response.body() != null) {
+                        if (D) Log.d(LOG_TAG, "<--- Remote Config update OK");
+                        setConfig(response.body());
+                    } else {
+                        if (D) Log.e(LOG_TAG, "<~~~ Remote Config update failed: No config entity was returned");
+                    }
+                } else {
+                    if (D) Log.e(LOG_TAG, String.format("<~~~ Remote Config update failed: %d %s", response.code(), response.message()));
+                }
+            }
 
-    //TODO Implement loading Config here via async request and call this method at success loading
-    //TODO See ApiUpdateConfig
+            @Override
+            public void onFailure(Call<ConfigModel> call, Throwable t) {
+                if (D) Log.e(LOG_TAG, "<~~~ Remote Config update failed: "+t.getMessage());
+                t.printStackTrace();
+            }
+        });
+    }
+
     boolean setConfig(@NonNull ConfigModel config) {
         if (!config.equals(mConfig)) {
             long tStart = System.currentTimeMillis();
