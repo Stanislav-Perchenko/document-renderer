@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_nav_item_height"
+    android:paddingRight="@dimen/base_margin_half"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView android:id="@+id/icon"
+        android:layout_width="@dimen/drawer_nav_item_icon_size"
+        android:layout_height="@dimen/drawer_nav_item_icon_size"
+        android:layout_weight="0"
+        android:layout_marginLeft="@dimen/base_margin"
+        android:layout_marginRight="@dimen/base_margin_half"
+        android:scaleType="centerCrop" />
+
+    <TextView android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/base_margin_half"
+        android:paddingRight="@dimen/base_margin"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="14sp"
+        tools:text="Isdlkjfgh jsdjklfng lsdfnsdkl fsdk fgsdj gsd;j g;lsf g"/>
+
+    <TextView android:id="@+id/number_badge"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_weight="0"
+        android:background="@drawable/cross_navigation_item_badge"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        tools:text="5"
+        android:visibility="gone"/>
+
+
+</LinearLayout>
