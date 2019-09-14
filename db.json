@@ -1,7 +1,7 @@
 {
   "config": {
     "color_primary": "#FF519FED",
-    "color_accent": "#FFED5188",
+    
     "text_color_primary": "#FFFFFFFF",
     "ic_document_menu_item": null,
     "ic_document_section_toc_item": null,
