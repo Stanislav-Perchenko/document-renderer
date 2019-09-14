@@ -30,8 +30,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.webssa.guestbest.MyApplication;
 import com.webssa.guestbest.R;
+import com.webssa.guestbest.config.ConfigManager;
 import com.webssa.guestbest.config.model.ConfigModel;
-import com.webssa.guestbest.dataapi.ConfigManager;
 
 import java.util.Iterator;
 

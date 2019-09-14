@@ -1,4 +1,4 @@
-package com.webssa.guestbest.dataapi;
+package com.webssa.guestbest.config;
 
 import android.content.Context;
 import android.content.SharedPreferences;
