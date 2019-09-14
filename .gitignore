@@ -52,6 +52,9 @@ captures/
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 
+.idea/caches
+.idea/inspectionProfiles
+
 # Gradle:
 .idea/libraries
 
