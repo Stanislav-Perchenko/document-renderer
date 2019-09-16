@@ -16,8 +16,8 @@
         "theme": "Welcome",
         "author": "Director",
         "department": "Human Resources",
-        "created_at": "2019-05-25T13:15:30Z",
-        "last_edited": "2019-05-25T13:15:30Z"
+        "created_at": "2019-05-25T13:15:30+0200",
+        "last_edited": "2019-05-25T13:15:30+0200"
       }
     }
   ],
@@ -30,8 +30,8 @@
         "theme": "Welcome",
         "author": "Director",
         "department": "Human Resources",
-        "created_at": "2019-05-25T13:15:30Z",
-        "last_edited": "2019-05-25T13:15:30Z",
+        "created_at": "2019-05-25T13:15:30+0200",
+        "last_edited": "2019-05-25T13:15:30+0200",
         "resource_id":"OS18",
         "completion":0.76,
         "user_rating":7.6
