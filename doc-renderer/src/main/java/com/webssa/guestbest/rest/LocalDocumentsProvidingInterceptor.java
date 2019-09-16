@@ -22,7 +22,7 @@ public class LocalDocumentsProvidingInterceptor implements Interceptor {
             String pathSegs[] = origRequest.url().pathSegments().toArray(new String[0]);
             if ((pathSegs.length == 3) && "local".equals(pathSegs[0]) && "documents".equals(pathSegs[1])) {
                 try {
-                    Thread.sleep(1200);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     throw new IOException();
                 }

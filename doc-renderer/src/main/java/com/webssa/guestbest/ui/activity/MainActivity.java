@@ -1,7 +1,9 @@
 package com.webssa.guestbest.ui.activity;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -69,6 +71,18 @@ public class MainActivity extends DrawerBaseActivity<DocumentIdPointer> {
         } else {
             return getNavItemsIteratorInternal();
         }
+    }
+
+    @Override
+    protected boolean onDrawerNavigationItemClicked(DocumentIdPointer item) {
+        if (item.isLocal()) {
+            Intent i = new Intent(this, DocumentDetailsActivity.class);
+            i.putExtra(DocumentDetailsActivity.ARG_LOCAL_DOCUMENT, item.getLocalDocumentName());
+            startActivity(i);
+        } else {
+            Toast.makeText(this, "Remote document: ID = "+item.getDocumentId(), Toast.LENGTH_SHORT).show();
+        }
+        return true;
     }
 
     @Override
@@ -147,7 +161,7 @@ public class MainActivity extends DrawerBaseActivity<DocumentIdPointer> {
             @Nullable
             @Override
             public DocumentIdPointer getItemAssociatedModel() {
-                return new DocumentIdPointer(true, "es203.json", null);
+                return new DocumentIdPointer(true, "ess203.json", null);
             }
 
             @NonNull
