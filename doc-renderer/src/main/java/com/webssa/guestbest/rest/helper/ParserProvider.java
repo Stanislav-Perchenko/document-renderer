@@ -9,6 +9,7 @@ import com.squareup.moshi.Moshi;
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory;
 import com.webssa.guestbest.config.model.ConfigColor;
 import com.webssa.guestbest.rest.jsonadapter.ConfigColorMoshiJsonAdapter;
+import com.webssa.guestbest.rest.jsonadapter.DateMoshiJsonAdapter;
 import com.webssa.guestbest.rest.jsonadapter.LocationMoshiJsonAdapter;
 import com.webssa.guestbest.rest.jsonadapter.UriMoshiJsonAdapter;
 import com.webssa.guestbest.rest.typeadapter.LocationGsonTypeAdapter;
@@ -28,6 +29,7 @@ public final class ParserProvider {
         Moshi m = new Moshi.Builder()
                 .add(UriMoshiJsonAdapter.FACTORY)
                 .add(LocationMoshiJsonAdapter.FACTORY)
+                .add(DateMoshiJsonAdapter.FACTORY)
                 .add(ConfigColor.class, new ConfigColorMoshiJsonAdapter())
                 .build();
 

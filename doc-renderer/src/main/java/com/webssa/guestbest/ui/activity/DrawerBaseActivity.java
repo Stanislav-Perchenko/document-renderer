@@ -24,7 +24,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -35,14 +34,14 @@ import com.webssa.guestbest.config.model.ConfigModel;
 
 import java.util.Iterator;
 
-public abstract class DrawerBaseActivity<NAVMODEL> extends AppCompatActivity {
+public abstract class DrawerBaseActivity<NAVMODEL> extends RetrofitCallLifecycleActivity {
     public static final String TAG_LIFECYCLE = "LIFE_CYCLE";
 
 
     private Toolbar vToolbar;
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
-    private LinearLayout vDrawer;
+    private ViewGroup vDrawer;
     private ViewGroup vDrawerItemsContainer;
 
 
@@ -171,7 +170,7 @@ public abstract class DrawerBaseActivity<NAVMODEL> extends AppCompatActivity {
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
         Log.d(TAG_LIFECYCLE, getClass().getSimpleName()+"->onPostCreate()");
-        vDrawer = (LinearLayout) findViewById(R.id.left_drawer);
+        vDrawer = (ViewGroup) findViewById(R.id.left_drawer);
         vDrawerItemsContainer = (ViewGroup) vDrawer.findViewById(R.id.nav_items_container);
         if (pendingNavLayoutRequest) {
             requestDrawerNavigationLayout();
@@ -235,47 +234,68 @@ public abstract class DrawerBaseActivity<NAVMODEL> extends AppCompatActivity {
         LayoutInflater inflater = getLayoutInflater();
         for (Iterator<INavItemDescriptor<NAVMODEL>> itr = getNavItemsIterator(); itr.hasNext(); ) {
             INavItemDescriptor<NAVMODEL> navItemDescr = itr.next();
-            inflater.inflate(R.layout.drawer_nav_item, vDrawerItemsContainer, true);
-            View vNavItem = vDrawerItemsContainer.getChildAt(vDrawerItemsContainer.getChildCount()-1);
-            inflater.inflate(R.layout.drawer_nav_items_divider, vDrawerItemsContainer, true);
 
-
-
-            TextView tv = vNavItem.findViewById(R.id.title);
-            ImageView iv = vNavItem.findViewById(R.id.icon);
-
-            if (mConfig != null) {
-                int color = mConfig.getTextColorPrimary().getIntColor();
-                tv.setTextColor(color);
-                if (mConfig.isMenuIconColorAsText()) iv.setImageTintList(ColorStateList.valueOf(color));
-            }
-
-            tv.setText(navItemDescr.getTitle());
-
-            if (navItemDescr.getIconBitmap() != null) {
-                iv.setImageBitmap(navItemDescr.getIconBitmap());
-            } else if (navItemDescr.getIconDrawable() != null) {
-                iv.setImageDrawable(navItemDescr.getIconDrawable());
-            } else if (navItemDescr.getIconResourceId() != null) {
-                iv.setImageResource(navItemDescr.getIconResourceId());
-            } else if (navItemDescr.getIconPath() != null) {
-                int sz = getResources().getDimensionPixelSize(R.dimen.drawer_nav_item_icon_size);
-                MyApplication.getPicasso().load(navItemDescr.getIconPath()).resize(sz, sz).centerCrop().into(iv);
+            if (navItemDescr.getItemAssociatedModel() == null) {
+                addSectionTitle(inflater, navItemDescr.getTitle());
             } else {
-                iv.setImageDrawable(null);
+                addNavigationItem(inflater, navItemDescr);
             }
+        }
+    }
 
-            if (navItemDescr.getItemAssociatedModel() != null) {
-                vNavItem.setTag(navItemDescr.getItemAssociatedModel());
-                vNavItem.setClickable(true);
-                vNavItem.setOnClickListener(v -> {
-                    if (onDrawerNavigationItemClicked((NAVMODEL) v.getTag())) {
-                        mDrawerLayout.closeDrawers();
-                    }
-                });
-            } else {
-                vNavItem.setClickable(false);
-            }
+    private void addSectionTitle(LayoutInflater inflater, CharSequence title) {
+        inflater.inflate(R.layout.drawer_nav_section_title, vDrawerItemsContainer, true);
+        View child = vDrawerItemsContainer.getChildAt(vDrawerItemsContainer.getChildCount()-1);
+        TextView tv = child.findViewById(R.id.title);
+        tv.setText(title);
+        if (mConfig != null) {
+            int color = mConfig.getTextColorPrimary().getIntColor();
+            tv.setTextColor(color);
+            child.findViewById(R.id.divider).setBackgroundColor(color);
+        }
+    }
+
+    private void addNavigationItem(LayoutInflater inflater, INavItemDescriptor<NAVMODEL> navItemDescr) {
+        inflater.inflate(R.layout.drawer_nav_item, vDrawerItemsContainer, true);
+        View vNavItem = vDrawerItemsContainer.getChildAt(vDrawerItemsContainer.getChildCount()-1);
+        inflater.inflate(R.layout.drawer_nav_items_divider, vDrawerItemsContainer, true);
+
+
+
+        TextView tv = vNavItem.findViewById(R.id.title);
+        ImageView iv = vNavItem.findViewById(R.id.icon);
+
+        if (mConfig != null) {
+            int color = mConfig.getTextColorPrimary().getIntColor();
+            tv.setTextColor(color);
+            if (mConfig.isMenuIconColorAsText()) iv.setImageTintList(ColorStateList.valueOf(color));
+        }
+
+        tv.setText(navItemDescr.getTitle());
+
+        if (navItemDescr.getIconBitmap() != null) {
+            iv.setImageBitmap(navItemDescr.getIconBitmap());
+        } else if (navItemDescr.getIconDrawable() != null) {
+            iv.setImageDrawable(navItemDescr.getIconDrawable());
+        } else if (navItemDescr.getIconResourceId() != null) {
+            iv.setImageResource(navItemDescr.getIconResourceId());
+        } else if (navItemDescr.getIconPath() != null) {
+            int sz = getResources().getDimensionPixelSize(R.dimen.drawer_nav_item_icon_size);
+            MyApplication.getPicasso().load(navItemDescr.getIconPath()).resize(sz, sz).centerCrop().into(iv);
+        } else {
+            iv.setImageDrawable(null);
+        }
+
+        if (navItemDescr.getItemAssociatedModel() != null) {
+            vNavItem.setTag(navItemDescr.getItemAssociatedModel());
+            vNavItem.setClickable(true);
+            vNavItem.setOnClickListener(v -> {
+                if (onDrawerNavigationItemClicked((NAVMODEL) v.getTag())) {
+                    mDrawerLayout.closeDrawers();
+                }
+            });
+        } else {
+            vNavItem.setClickable(false);
         }
     }
 

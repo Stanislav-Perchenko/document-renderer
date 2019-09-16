@@ -17,10 +17,10 @@ data class ConfigModel(
         val textColorPrimary: ConfigColor,
 
         @Json(name = "ic_document_menu_item")
-        val iconDocumemntMenuItem: Uri ?= null,
+        val iconDocumentMenuItem: Uri ?= null,
 
         @Json(name = "ic_document_section_toc_item")
-        val iconDocumemntSectionTOCItem: Uri ?= null,
+        val iconDocumentSectionTOCItem: Uri ?= null,
 
         @Json(name = "menu_icon_color_as_text")
         val isMenuIconColorAsText: Boolean = false
