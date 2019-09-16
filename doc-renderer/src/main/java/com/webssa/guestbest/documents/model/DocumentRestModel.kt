@@ -13,5 +13,5 @@ class DocumentRestModel (
         val meta: DocMetaRestModel,
 
         @Json(name = "sections")
-        val sections: List<Object> //TODO implement this !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        val sections: List<DocSectionRestModel>
 )
